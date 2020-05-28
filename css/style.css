@@ -46,7 +46,7 @@ h1 {
     left: 50%;
     width: 20px;
     height: 20px;
-    transform: translate(-50%,50%);
+    transform: translate(-50%, 50%);
 }
 
 .img-container img {
@@ -118,6 +118,7 @@ h1 {
 .music-container.play .music-info {
     opacity: 1;
     transform: translateY(-100%);
+    background: #f7f7f7;
 }
 
 .music-info h4 {
