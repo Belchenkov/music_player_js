@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 
 * {
     box-sizing: border-box;
@@ -17,8 +17,10 @@ body {
 }
 
 h1 {
-    font-family: 'Courgette', cursive;
-    font-size: 50px;
+    font-family: 'Monoton', cursive;
+    font-size: 40px;
+    color: #2f6377;
+
 }
 
 .music-container {
@@ -28,8 +30,9 @@ h1 {
     display: flex;
     padding: 20px 30px;
     position: relative;
-    margin: 100px 0;
+    margin: 50px 0;
     z-index: 10;
+    border: 2px solid #eee;
 }
 
 .img-container {
